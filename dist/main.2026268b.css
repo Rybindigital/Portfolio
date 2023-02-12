@@ -187,4 +187,11 @@ html {
   justify-content: space-between;
 }
 
+.link {
+  color: currentColor;
+}
+.link:hover {
+  text-decoration-line: underline;
+}
+
 /*# sourceMappingURL=/main.2026268b.css.map */
