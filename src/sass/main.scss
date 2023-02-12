@@ -1,6 +1,17 @@
-.container {
-  background: #999;
-  color: #222;
+@import "components/reset";
+@import "components/typography";
+
+html {
+	font-family: "Inter", sans-serif;
 }
 
-@import 'components/reset'
+.container {
+	padding: 16px;
+}
+
+.autolayout {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
